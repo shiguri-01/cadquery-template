@@ -1,0 +1,11 @@
+[project]
+name = "cadquery-demo-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12" # 3.13以降では動作しない
+dependencies = [
+    "cadquery>=2.5.2",
+    "ocp-tessellate>=3.0.17",
+    "ocp-vscode>=2.9.0",
+]
