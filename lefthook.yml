@@ -1,0 +1,10 @@
+pre-commit:
+  commands:
+    format:
+      glob: "*.{py,ipynb}"
+      run: uv run ruff format {staged_files}
+      stage_fixed: true
+    notebook-strip-output:
+      glob: "*.ipynb"
+      run: nbstripout {staged_files}
+      stage_fixed: true

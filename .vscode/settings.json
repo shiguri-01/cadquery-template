@@ -1,3 +1,8 @@
 {
-  "ocp_vscode.reset_camera": "KEEP"
+  "OcpCadViewer.advanced.initialPort": 3939,
+  "notebook.formatOnSave.enabled": true,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
 }
