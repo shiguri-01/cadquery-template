@@ -1,3 +1,7 @@
 {
-  "recommendations": ["bernhard-42.ocp-cad-viewer", "ms-toolsai.jupyter"]
+  "recommendations": [
+    "ms-python.python",
+    "bernhard-42.ocp-cad-viewer",
+    "ms-toolsai.jupyter",
+  ]
 }

@@ -14,7 +14,7 @@
    `<name>`の部分は好きな名前に置き換えること。
 
     ```
-    gh repo new <name> --clone --private --template=shiguri-01/cadquery-demo-2
+    gh repo new <name> --clone --private --template=shiguri-01/cadquery-template
     code <name>
     ```
 
@@ -37,6 +37,7 @@
 
    1. サイドバーのExtensions（拡張機能）タブを開く。
    2. Recomended欄の以下の拡張機能をインストールする。
-      - **OCP CAD Viewer**: CadQueryの3DモデルをVSCode上で表示する
-      - **Jupyter**: NotebookをVSCodeで編集・実行する
+      - **Pthon**: Pythonを扱うために必要
+      - **OCP CAD Viewer**: CadQueryの3Dモデルのプレビューに必要
+      - **Jupyter**: Notebookを編集・実行するために必要
 
