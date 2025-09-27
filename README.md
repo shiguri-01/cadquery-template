@@ -46,7 +46,7 @@ VSCodeでCadQueryによる3Dモデリングを始めるためのテンプレー�
    2.  エディタ右上のSelect Kernelボタンをクリックする。
    3. 一覧から、`cadquery-project`を選択する。
 
-5. **OCP CAD Viewerのカーネル設定**
+5. **OCP CAD Viewerのカーネルを選択**
 
    1. サイドバーの`OCP CAD Viewer`タブを開く。
    2. カーネル選択ボタンをクリックし、`cadquery-project`を選択する。
