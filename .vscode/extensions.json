@@ -3,5 +3,7 @@
     "ms-python.python",
     "bernhard-42.ocp-cad-viewer",
     "ms-toolsai.jupyter",
+    "mtsmfm.vscode-stl-viewer",
+    "charliermarsh.ruff"
   ]
 }

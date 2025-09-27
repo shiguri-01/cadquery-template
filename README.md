@@ -1,10 +1,13 @@
+# CadQueryテンプレート
+
+VSCodeでCadQueryによる3Dモデリングを始めるためのテンプレート
+
 ## 必要なもの
 
 - uv
 - Git
 - GitHub CLI
 - VSCode
-
 
 ## セットアップ手順
 
@@ -18,7 +21,17 @@
     code <name>
     ```
 
-2. **仮想環境のセットアップとGitフックのインストール**
+2. **推奨のVSCode拡張機能をインストール**
+
+   1. サイドバーのExtensions（拡張機能）タブを開く。
+   2. Recommended欄の以下の拡張機能をインストールする。
+      - **Python**: Pythonの開発環境を提供する
+      - **Jupyter**: Notebook形式のファイルを扱えるようにする
+      - **OCP CAD Viewer**: CadQueryの3Dモデルのプレビューを表示する
+      - **vscode-stl-viewwer**: エクスポートしたSTLファイルのプレビューを表示する
+      - **Ruff**: Pythonのリンター・フォーマッター
+
+3. **仮想環境のセットアップとGitフックのインストール**
 
    VSCodeのターミナルで以下のコマンドを実行する。
 
@@ -27,17 +40,13 @@
     uv run lefthook install
     ```
 
-3. **Notebookのカーネルを選択**
+4. **Notebookのカーネルを選択**
 
    1. src/main.ipynbを開く。
    2.  エディタ右上のSelect Kernelボタンをクリックする。
-   3. 一覧から、プロジェクト内に作成された仮想環境（さっきの`<name>`と同じ名前）のカーネルを選択する。
+   3. 一覧から、`cadquery-project`を選択する。
 
-4. **推奨のVSCode拡張機能をインストール**
+5. **OCP CAD Viewerのカーネル設定**
 
-   1. サイドバーのExtensions（拡張機能）タブを開く。
-   2. Recomended欄の以下の拡張機能をインストールする。
-      - **Pthon**: Pythonを扱うために必要
-      - **OCP CAD Viewer**: CadQueryの3Dモデルのプレビューに必要
-      - **Jupyter**: Notebookを編集・実行するために必要
-
+   1. サイドバーの`OCP CAD Viewer`タブを開く。
+   2. カーネル選択ボタンをクリックし、`cadquery-project`を選択する。
